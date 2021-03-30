@@ -23,8 +23,8 @@ public class DadosActivity extends AppCompatActivity {
             "https://wa.me/55840000-0000?text=Olá,%20gostaria%20de%20um%20orçamento%20pelo%20APP%20Serviços%20indicados%20RN...",
             "https://wa.me/55840000-0000?text=Olá,%20gostaria%20de%20um%20orçamento%20pelo%20APP%20Serviços%20indicados%20RN...",
             "https://wa.me/55840000-0000?text=Olá,%20gostaria%20de%20um%20orçamento%20pelo%20APP%20Serviços%20indicados%20RN..."
-            //   "https://wa.me/5584988375683?text=Olá,%20gostaria%20de%20um%20orçamento%20pelo%20APP%20Serviços%20indicados%20RN...",
-            // "https://wa.me/5584988375683?text=Olá,%20gostaria%20de%20um%20orçamento%20pelo%20APP%20Serviços%20indicados%20RN..."
+            //   "https://wa.me/55840000-0000?text=Olá,%20gostaria%20de%20um%20orçamento%20pelo%20APP%20Serviços%20indicados%20RN...",
+            // "https://wa.me/55840000-0000?text=Olá,%20gostaria%20de%20um%20orçamento%20pelo%20APP%20Serviços%20indicados%20RN..."
     };
 
     String[] listaNomes = {
@@ -75,15 +75,7 @@ public class DadosActivity extends AppCompatActivity {
                     "\n" +
                     "Profissional: Rafael (Rafa Cell)\n" +
                     "Telefone: 0000-0000\n",
-            /*                  "\n" +
-                              "Comentários dos clientes:\n" +
-                              "\n" +
-                              "Positivo: \n" +
-                              "- \"Peças originais, garantia de 90 dias e ótimo atendimento. O melhor preço que encontrei e a qualidade é surpreendente. O local é de fácil acesso, próximo as lojas C&A Riachuelo do centro de Natal-RN.\"\n" +
-                              "\n" +
-                              "Negativo: \n" +
-                              "- Nenhum comentário até o momento.",
-          */
+
             "Construções, reformas, regularizações e projetos complementares.\n\n" +
                     "Profissional: Fabrício Dutra.\n" +
                     "Telefone: 0000-0000",
@@ -95,59 +87,20 @@ public class DadosActivity extends AppCompatActivity {
                     "- Tudo com baixa e média tensão.\n\n" +
                     "Profissional: Jerônimo.\n" +
                     "Orçamento grátis: 0000-0000\n",
-/*                    "\n" +
-                    "Comentários dos clientes:\n" +
-                    "\n" +
-                    "Positivos: \n" +
-                    "- \"Serviços dentro do padrão e preço justo.\"; \n" +
-                    "- \"Excelente profissional\";\n" +
-                    "- \"Muito técnico. Realmente conhece o que faz. Está sempre buscando se aperfeiçoar.\"\n" +
-                    "\n" +
-                    "Negativos: \n" +
-                    "- \"Às vezes os seus serviços demoram mais do que o esperado mais tudo fica bem feito.\"\n" +
-                    "- \"Nenhum.\"\n" +
-                    "- \"Um pouco lento. Talvez, porque executa o trabalho com segurança.\"",
-*/
+
             "Mais de 12 anos de experiência  resolvendo problemas de encanamentos em residências (casa ou apartamento) e comércio em geral.\n\n" +
                     "Profissional: Genilson\n" +
                     "Orçamento grátis: 0000-0000\n",
 
-//            "Comentários dos clientes:\n" +
-//                "\n",
-/*                    "Positivos: \n" +
-                    "- \"Ótimo! Ele resolveu um problema bem díficil no encanamento da cozinha.\n" +
-                    "\n" +
-                    "Negativo: \n" +
-                    "- Nenhum comentário até o momento.",
-
-*/
-
             "Mudanças na região com veículo fechado,\n estilo baú.\n\n" +
                     "Profissional: Sueldes.\n" +
                     "Orçamento grátis: 0000-0000\n",
-/*                    "\n" +
-                    "Comentários dos clientes:\n" +
-                    "\n" +
-                    "Positivo: \n" +
-                    "- \"Trabalha bem. É cuidadoso, embala bem os pertences evitando arranhar no transporte.\"\n" +
-                    "\n" +
-                    "Negativo: \n" +
-                    "- Nenhum comentário até o momento.",
 
-*/
             "Transporte de automóveis variados com ou sem problemas mecânicos.\n\n" +
                     "Profissional: João Maria.\n" +
                     "Orçamento grátis: 0000-0000\n",
 
-            /*"\n" +
-                    "Comentários dos clientes:\n" +
-                    "\n" +
-                    "Positivo: \n" +
-                    "- \"Utilizei bastante em nossa oficina. Indico a todos os clientes que entram em contato buscando um guincho de confiança.\" \n" +
-                    "\n" +
-                    "Negativo: \n" +
-                    "- Nenhum comentário até o momento.",
-*/
+
             "Venda de móveis planejados para casa, apartamento e comércio.\n\n" +
                     "Profissional: Bezerra.\n" +
                     "Orçamento grátis: 0000-0000\n" +
@@ -203,8 +156,6 @@ public class DadosActivity extends AppCompatActivity {
                 intent.putExtra("dicas", estruturaDados.getDicas());
 
                 intent.putExtra("whatsApp", estruturaDados.getLinkWhatsapp());
-
-
 
                 startActivity(intent);
             }
